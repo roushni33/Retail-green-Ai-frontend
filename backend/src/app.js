@@ -28,22 +28,14 @@ import userRouter from "./routes/user.route.js"
 import productRouter from "./routes/product.route.js"
 import inventoryItemRouter from "./routes/inventoryItem.route.js"
 import dashboardRouter from "./routes/dashboard.route.js"
-// import tweetRouter from "./routes/tweet.route.js"
-// import commentRouter from "./routes/comment.route.js"
-// import likeRouter from "./routes/like.route.js"
 import healthCheckRouter from "./routes/healthcheck.route.js"
-// import dashboardRouter from "./routes/dashboard.route.js"
 
 // routes declaration
 app.use("/api/v1/users", userRouter)
 app.use("/api/v1/products", productRouter)
 app.use("/api/v1/inventory", inventoryItemRouter)
 app.use("/api/v1/dashboard", dashboardRouter)
-// app.use("/api/v1/tweets", tweetRouter)
-// app.use("/api/v1/comments", commentRouter)
-// app.use("/api/v1/likes", likeRouter)
 app.use("/api/v1/healthCheck", healthCheckRouter)
-// app.use("/api/v1/dashboard", dashboardRouter)
 
 // error Handler
 app.use(errorHandler)
