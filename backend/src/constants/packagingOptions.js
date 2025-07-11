@@ -1,0 +1,21 @@
+export const packagingOptions = [
+  'unknown',
+  'glass bottle',
+  'plastic bottle',
+  'can',
+  'carton',
+  'bag',
+  'box',
+  'pouch',
+  'tetra pak',
+  'wrapper',
+  'jar',
+  'tube',
+  'paper bag',
+  'plastic bag',
+  'plastic tray',
+  'aluminum tray',
+  'plastic film',
+  'bulk',
+  'other'
+];

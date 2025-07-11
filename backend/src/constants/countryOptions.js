@@ -1,0 +1,21 @@
+export const countryOptions = [
+  'united states',
+  'canada',
+  'germany',
+  'france',
+  'italy',
+  'spain',
+  'united kingdom',
+  'china',
+  'japan',
+  'india',
+  'brazil',
+  'australia',
+  'south africa',
+  'russia',
+  'egypt',
+  'mexico',
+  'indonesia',
+  'saudi arabia',
+  'other'
+];
